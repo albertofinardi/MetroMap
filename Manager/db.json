@@ -1,0 +1,273 @@
+[
+    {
+        "name": "Milano",
+        "lines": [
+            {
+                "name" : "M1",
+                "color" : "#E40921",
+                "stops" : [
+                    {
+                        "name" : "Sesto 1 Maggio FS",
+                        "location" : {
+                            "latitude" : 45.541751038474935,
+                            "longitude" : 9.238266467209643
+                        }
+                    },
+                    {
+                        "name" : "Sesto Rondò",
+                        "location" : {
+                            "latitude" : 45.53422314146797,
+                            "longitude" : 9.231342673123008
+                        }
+                    },
+                    {
+                        "name" : "Sesto Marelli",
+                        "location" : {
+                            "latitude" : 45.523557822507534,
+                            "longitude" : 9.227973818653318
+                        }
+                    },
+                    {
+                        "name" : "Villa S. Giovanni",
+                        "location" : {
+                            "latitude" : 45.51740951620855,
+                            "longitude" : 9.226875557092885
+                        }
+                    },
+                    {
+                        "name" : "Precotto",
+                        "location" : {
+                            "latitude" : 45.5121217776055,
+                            "longitude" : 9.224525135017988
+                        }
+                    },
+                    {
+                        "name" : "Gorla",
+                        "location" : {
+                            "latitude" : 45.5066353784758,
+                            "longitude" : 9.222775572686642
+                        }
+                    },
+                    {
+                        "name" : "Turro",
+                        "location" : {
+                            "latitude" : 45.50098742040425,
+                            "longitude" : 9.221043682772443
+                        }
+                    },
+                    {
+                        "name" : "Rovereto",
+                        "location" : {
+                            "latitude" : 45.4958067085569,
+                            "longitude" : 9.219409525541092
+                        }
+                    },
+                    {
+                        "name" : "Pasteur",
+                        "location" : {
+                            "latitude" : 45.49106711499854,
+                            "longitude" : 9.218477759433158
+                        }
+                    },
+                    {
+                        "name" : "Loreto",
+                        "location" : {
+                            "latitude" : 45.485590126806365,
+                            "longitude" : 9.215873592968762
+                        }
+                    },
+                    {
+                        "name" : "Lima",
+                        "location" : {
+                            "latitude" : 45.480263370639115,
+                            "longitude" : 9.210784717347137
+                        }
+                    },
+                    {
+                        "name" : "P.ta Venezia",
+                        "location" : {
+                            "latitude" : 45.47473507230855,
+                            "longitude" : 9.205910864470212
+                        }
+                    },
+                    {
+                        "name" : "Palestro",
+                        "location" : {
+                            "latitude" : 45.471401078709356,
+                            "longitude" : 9.201944886210468
+                        }
+                    },
+                    {
+                        "name" : "San Babila",
+                        "location" : {
+                            "latitude" : 45.46640809642347,
+                            "longitude" : 9.197357730607639
+                        }
+                    },
+                    {
+                        "name" : "Duomo",
+                        "location" : {
+                            "latitude" : 45.464514668667206,
+                            "longitude" : 9.189210750876972
+                        }
+                    },
+                    {
+                        "name" : "Cordusio",
+                        "location" : {
+                            "latitude" : 45.465729271473094,
+                            "longitude" : 9.186096328636145
+                        }
+                    },
+                    {
+                        "name" : "Cairoli",
+                        "location" : {
+                            "latitude" : 45.468217530455625,
+                            "longitude" : 9.182144871133811
+                        }
+                    },
+                    {
+                        "name" : "Cadorna FN",
+                        "location" : {
+                            "latitude" : 45.468207772804035,
+                            "longitude" : 9.175855931157637
+                        }
+                    },
+                    {
+                        "name" : "Conciliazione",
+                        "location" : {
+                            "latitude" : 45.467524732124986,
+                            "longitude" : 9.166283385347533
+                        }
+                    },
+                    {
+                        "name" : "Pagano",
+                        "location" : {
+                            "latitude" : 45.4682370458012,
+                            "longitude" : 9.160801433336351
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "M2",
+                "color": "#5F9132",
+                "stops" : [
+                    {
+                        "name" : "Romolo",
+                        "location" : {
+                            "latitude" : 45.44476924427569,
+                            "longitude" : 9.167671799725687
+                        }
+                    },
+                    {
+                        "name" : "P.ta Genova FS",
+                        "location" : {
+                            "latitude" : 45.45275510047869,
+                            "longitude" : 9.169683571793438
+                        }
+                    },
+                    {
+                        "name" : "S. Agostino",
+                        "location" : {
+                            "latitude" : 45.45842339185181,
+                            "longitude" : 9.169778144261999
+                        }
+                    },
+                    {
+                        "name" : "S. Ambrogio",
+                        "location" : {
+                            "latitude" : 45.46202750962783,
+                            "longitude" : 9.173287829742497
+                        }
+                    },
+                    {
+                        "name" : "Cadorna",
+                        "location" : {
+                            "latitude" : 45.46835074236951,
+                            "longitude" : 9.17588331576498
+                        }
+                    },
+                    {
+                        "name" : "Lanza",
+                        "location" : {
+                            "latitude" : 45.47214581538296,
+                            "longitude" : 9.18281862246509
+                        }
+                    },
+                    {
+                        "name" : "Moscova",
+                        "location" : {
+                            "latitude" : 45.47753216948095,
+                            "longitude" : 9.184657529556047
+                        }
+                    },
+                    {
+                        "name" : "Garibaldi FS",
+                        "location" : {
+                            "latitude" : 45.48351476638531,
+                            "longitude" : 9.186979806469228
+                        }
+                    },
+                    {
+                        "name" : "Gioia",
+                        "location" : {
+                            "latitude" : 45.48471562986435,
+                            "longitude" :  9.195207601817389
+                        }
+                    },
+                    {
+                        "name" : "Centrale FS",
+                        "location" : {
+                            "latitude" : 45.484796668792995,
+                            "longitude" : 9.20274186691124
+                        }
+                    },
+                    {
+                        "name" : "Caiazzo",
+                        "location" : {
+                            "latitude" : 45.485400773622466,
+                            "longitude" : 9.209025675157795
+                        }
+                    },
+                    {
+                        "name" : "Loreto",
+                        "location" : {
+                            "latitude" : 45.48459407124182,
+                            "longitude" : 9.215151862789702
+                        }
+                    },
+                    {
+                        "name" : "Piola",
+                        "location" : {
+                            "latitude" : 45.48081457195394,
+                            "longitude" : 9.225102977052023
+                        }
+                    },
+                    {
+                        "name" : "Lambrate FS",
+                        "location" : {
+                            "latitude" : 45.484236658247674,
+                            "longitude" : 9.235027027253823
+                        }
+                    }
+                ]
+            },
+            {
+                "name" : "M3",
+                "color" : "#F4A800",
+                "stops" : []
+            },
+            {
+                "name" : "M4",
+                "color" : "#1B3968",
+                "stops" : []
+            },
+            {
+                "name" : "M5",
+                "color" : "#A094C5",
+                "stops" : []
+            }
+        ]
+    }
+]
+ 
