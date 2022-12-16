@@ -92,6 +92,7 @@
 		FA8F360E294C9428009FE4B6 /* MetroStructs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetroStructs.swift; sourceTree = "<group>"; };
 		FA8F3610294CA802009FE4B6 /* db.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = db.json; sourceTree = "<group>"; };
 		FA8F3612294CA84A009FE4B6 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		FAAF232C294CE22C002F97A1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		FAE6F87E294C84DB0055E01E /* MetroMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetroMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAE6F881294C84DB0055E01E /* MetroMapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetroMapApp.swift; sourceTree = "<group>"; };
 		FAE6F883294C84DB0055E01E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -161,6 +162,7 @@
 		FAE6F875294C84DB0055E01E = {
 			isa = PBXGroup;
 			children = (
+				FAAF232C294CE22C002F97A1 /* README.md */,
 				FAFF12AB294CD4670086C4CD /* Manager */,
 				FAFF12AA294CD45E0086C4CD /* Notifications */,
 				FAE6F880294C84DB0055E01E /* MetroMap */,
