@@ -14,10 +14,11 @@ struct LockScreenMetroWidgetView: View {
         VStack {
             HStack {
                 Text(context.attributes.cityName)
-                    .font(.title2)
+                    .font(.subheadline)
                 Spacer()
+                //RoundedRectangle(cornerRadius: 12).opacity(0.1)
                 Text(context.attributes.lineName)
-                    .font(.title2)
+                    .font(.subheadline)
             }
             Group {
                 switch context.state.state {
@@ -39,7 +40,7 @@ struct LockScreenMetroWidgetView: View {
                         VStack {
                             Text("You arrived at:")
                                 .font(.title3)
-                            Text("\(context.state.stop?.name ?? "IDK")")
+                            Text("\(context.state.stop?.name ?? "Unknow")")
                                 .font(.title)
                         }
                 }
@@ -54,7 +55,7 @@ struct LockScreenMetroWidgetView: View {
 
 struct LockScreenMetroWidgetView_Previews: PreviewProvider {
     static let attributes = MetroWidgetAttributes(cityName: "Milano", lineName: "M2", lineColor: "Verde")
-    static let contentState = MetroWidgetAttributes.ContentState()
+    static let contentState = MetroWidgetAttributes.ContentState(state: .using)
     
     static var previews: some View {
         attributes
