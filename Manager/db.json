@@ -255,19 +255,345 @@
             {
                 "name" : "M3",
                 "color" : "#F4A800",
-                "stops" : []
+                "stops" : [
+                    {
+                        "name" : "Comasina",
+                        "location" : {
+                            "latitude" : 45.529947430135195,
+                            "longitude" : 9.163126153682487
+                        }
+                    },
+                    {
+                        "name" : "Affori FN",
+                        "location" : {
+                            "latitude" : 45.522085728031435,
+                            "longitude" : 9.16792470826518
+                        }
+                    },
+                    {
+                        "name" : "Affori Centro",
+                        "location" : {
+                            "latitude" : 45.51352240159246,
+                            "longitude" : 9.174097848813238
+                        }
+                    },
+                    {
+                        "name" : "Dergano",
+                        "location" : {
+                            "latitude" : 45.50565840408899,
+                            "longitude" : 9.17962118511405
+                        }
+                    },
+                    {
+                        "name" : "Maciachini",
+                        "location" : {
+                            "latitude" : 45.49767068072121,
+                            "longitude" :  9.185194506343455
+                        }
+                    },
+                    {
+                        "name" : "Zara",
+                        "location" : {
+                            "latitude" : 45.492257303007996,
+                            "longitude" : 9.192317360876283
+                        }
+                    },
+                    {
+                        "name" : "Sondrio",
+                        "location" : {
+                            "latitude" : 45.48964678278277,
+                            "longitude" : 9.200914771132203
+                        }
+                    },
+                    {
+                        "name" : "Centrale FS",
+                        "location" : {
+                            "latitude" : 45.48470573550874,
+                            "longitude" : 9.202814199031804
+                        }
+                    },
+                    {
+                        "name" : "Repubblica",
+                        "location" : {
+                            "latitude" : 45.4803600591078,
+                            "longitude" :  9.19899035084627
+                        }
+                    },
+                    {
+                        "name" : "Turati",
+                        "location" : {
+                            "latitude" : 45.47451241485209,
+                            "longitude" : 9.194789674569007
+                        }
+                    },
+                    {
+                        "name" : "Montenapoleane",
+                        "location" : {
+                            "latitude" : 45.470312220101626,
+                            "longitude" : 9.193507957971462
+                        }
+                    },
+                    {
+                        "name" : "Duomo",
+                        "location" : {
+                            "latitude" : 45.46441759163516,
+                            "longitude" : 9.189219136943095
+                        }
+                    },
+                    {
+                        "name" : "Missori",
+                        "location" : {
+                            "latitude" : 45.46059785886814,
+                            "longitude" :9.188166568743137
+                        }
+                    },
+                    {
+                        "name" : "Crocetta",
+                        "location" : {
+                            "latitude" : 45.455983884512406,
+                            "longitude" :9.195744836622861
+                        }
+                    },
+                    {
+                        "name" : "P.ta Romana",
+                        "location" : {
+                            "latitude" : 45.4515076105058,
+                            "longitude" :9.203091598567704
+                        }
+                    },
+                    {
+                        "name" : "Lodi Tibb",
+                        "location" : {
+                            "latitude" : 45.447014044966146,
+                            "longitude" :9.209738285717446
+                        }
+                    },
+                    {
+                        "name" : "Brenta",
+                        "location" : {
+                            "latitude" : 45.4429943714707,
+                            "longitude" :9.218050668071255
+                        }
+                    },
+                    {
+                        "name" : "Corvetto",
+                        "location" : {
+                            "latitude" : 45.440335132304,
+                            "longitude" : 9.223828296838155
+                        }
+                    },
+                    {
+                        "name" : "Porto di Mare",
+                        "location" : {
+                            "latitude" : 45.43722970498932,
+                            "longitude" :9.230426702983094
+                        }
+                    },
+                    {
+                        "name" : "Rogoredo FS",
+                        "location" : {
+                            "latitude" : 45.433796597359795,
+                            "longitude" : 9.238513773917699
+                        }
+                    },
+                    {
+                        "name" : "S. Donato",
+                        "location" : {
+                            "latitude" : 45.42897475661792,
+                            "longitude" :9.25653835242854
+                        }
+                    }
+                ]
             },
             {
                 "name" : "M4",
                 "color" : "#1B3968",
-                "stops" : []
+                "stops" : [
+                    {
+                        "name" : "Linate",
+                        "location" : {
+                            "latitude" : 45.46286170705398,
+                            "longitude" :9.277900335347637
+                        }
+                    },
+                    {
+                        "name" : "Repetti",
+                        "location" : {
+                            "latitude" : 45.462060584754674,
+                            "longitude" : 9.240336216559108
+                        }
+                    },
+                    {
+                        "name" : "Forlanini",
+                        "location" : {
+                            "latitude" : 45.46497575885516,
+                            "longitude" :9.236430344289126
+                        }
+                    },
+                    {
+                        "name" : "Argonne",
+                        "location" : {
+                            "latitude" : 45.46836173475844,
+                            "longitude" :9.231924233075922
+                        }
+                    },
+                    {
+                        "name" : "Susa",
+                        "location" : {
+                            "latitude" : 45.46807581577413,
+                            "longitude" :9.224907574355832
+                        }
+                    },
+                    {
+                        "name" : "Dateo",
+                        "location" : {
+                            "latitude" : 45.468060767366055,
+                            "longitude" :9.21849173043376
+                        }
+                    }
+                ]
             },
             {
                 "name" : "M5",
                 "color" : "#A094C5",
-                "stops" : []
+                "stops" : [
+                    {
+                        "name" : "Bignami",
+                        "location" : {
+                            "latitude" : 45.526812180334275,
+                            "longitude" :9.21277203250699
+                        }
+                    },
+                    {
+                        "name" : "Ponale",
+                        "location" : {
+                            "latitude" : 45.521791028695574,
+                            "longitude" : 9.20921005899712
+                        }
+                    },
+                    {
+                        "name" : "Bicocca",
+                        "location" : {
+                            "latitude" : 45.514213352565115,
+                            "longitude" :9.205261847333908
+                        }
+                    },
+                    {
+                        "name" : "Ca' Granda",
+                        "location" : {
+                            "latitude" : 45.50762716235843,
+                            "longitude" : 9.201356551020156
+                        }
+                    },
+                    {
+                        "name" : "Istria",
+                        "location" : {
+                            "latitude" : 45.50166123054238,
+                            "longitude" :9.19794498532774
+                        }
+                    },
+                    {
+                        "name" : "Marche",
+                        "location" : {
+                            "latitude" : 45.49647195783909,
+                            "longitude" :9.19507592024212
+                        }
+                    },
+                    {
+                        "name" : "Zara",
+                        "location" : {
+                            "latitude" : 45.49233406586731,
+                            "longitude" : 9.192437699480486
+                        }
+                    },
+                    {
+                        "name" : "Isola",
+                        "location" : {
+                            "latitude" : 45.48765256459842,
+                            "longitude" :9.191316455637539
+                        }
+                    },
+                    {
+                        "name" : "Garibaldi FS",
+                        "location" : {
+                            "latitude" : 45.4835487063569,
+                            "longitude" :9.18691392472528
+                        }
+                    },
+                    {
+                        "name" : "Monumentale",
+                        "location" : {
+                            "latitude" : 45.48530588788554,
+                            "longitude" : 9.181027394577285
+                        }
+                    },
+                    {
+                        "name" : "Cenisio",
+                        "location" : {
+                            "latitude" : 45.487467608376804,
+                            "longitude" :9.173162198912797
+                        }
+                    },
+                    {
+                        "name" : "Gerusalemme",
+                        "location" : {
+                            "latitude" : 45.48475099439413,
+                            "longitude" :9.167028335569539
+                        }
+                    },
+                    {
+                        "name" : "Domodossola FN",
+                        "location" : {
+                            "latitude" : 45.48136371343403,
+                            "longitude" : 9.162131138235239
+                        }
+                    },
+                    {
+                        "name" : "Tre Torri",
+                        "location" : {
+                            "latitude" : 45.47824214792586,
+                            "longitude" : 9.156706296762424
+                        }
+                    },
+                    {
+                        "name" : "Portello",
+                        "location" : {
+                            "latitude" : 45.481576513095575,
+                            "longitude" : 9.150874389809914
+                        }
+                    },
+                    {
+                        "name" : "Lotto",
+                        "location" : {
+                            "latitude" : 45.47921442976494,
+                            "longitude" :9.144565834087556
+                        }
+                    },
+                    {
+                        "name" : "Segesta",
+                        "location" : {
+                            "latitude" : 45.47620526295137,
+                            "longitude" : 9.13742042929426
+                        }
+                    },
+                    {
+                        "name" : "San Siro Ippodromo",
+                        "location" : {
+                            "latitude" : 45.476145077976945,
+                            "longitude" : 9.128472579959846
+                        }
+                    },
+                    {
+                        "name" : "San Siro Stadio",
+                        "location" : {
+                            "latitude" : 45.476837201307106,
+                            "longitude" :9.118516220142373
+                        }
+                    }
+                ]
             }
         ]
     }
 ]
+ 
  
