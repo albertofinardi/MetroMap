@@ -650,7 +650,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MetroMap/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "";
-				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Needs location";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Needs location also in background";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Needs location";
 				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -685,7 +685,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MetroMap/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "";
-				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Needs location";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Needs location also in background";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Needs location";
 				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

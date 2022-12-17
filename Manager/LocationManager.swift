@@ -17,7 +17,7 @@ final class LocationManager: NSObject {
         super.init()
         locationManager.desiredAccuracy = kCLLocationAccuracyBest
         locationManager.distanceFilter = kCLDistanceFilterNone
-        locationManager.requestAlwaysAuthorization()
+        locationManager.requestWhenInUseAuthorization()
         locationManager.allowsBackgroundLocationUpdates = true
         locationManager.showsBackgroundLocationIndicator = true
         locationManager.delegate = self
@@ -82,5 +82,9 @@ extension LocationManager: CLLocationManagerDelegate {
         DispatchQueue.main.async {
             self.updateLiveActivity(closestStop)
         }
+    }
+    
+    func locationManagerDidChangeAuthorization(_ manager: CLLocationManager) {
+        manager.requestAlwaysAuthorization()
     }
 }
