@@ -7,12 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA262B29294F254300602951 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = FA262B28294F254300602951 /* SDWebImage */; };
+		FA262B2C294F25D800602951 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = FA262B2B294F25D800602951 /* SDWebImageSwiftUI */; };
+		FA262B36294F2D6600602951 /* Zoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA262B35294F2D6600602951 /* Zoom.swift */; };
 		FA8F3609294C8CAA009FE4B6 /* LiveActivityHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE6F8CA294C88DB0055E01E /* LiveActivityHelper.swift */; };
 		FA8F360B294C8CBF009FE4B6 /* LiveActivityHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE6F8CA294C88DB0055E01E /* LiveActivityHelper.swift */; };
 		FA8F360D294C8DFB009FE4B6 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8F360C294C8DFB009FE4B6 /* LocationManager.swift */; };
 		FA8F360F294C9428009FE4B6 /* MetroStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8F360E294C9428009FE4B6 /* MetroStructs.swift */; };
 		FA8F3611294CA802009FE4B6 /* db.json in Resources */ = {isa = PBXBuildFile; fileRef = FA8F3610294CA802009FE4B6 /* db.json */; };
 		FA8F3613294CA84A009FE4B6 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8F3612294CA84A009FE4B6 /* MainViewModel.swift */; };
+		FAAF2330294F1FFC002F97A1 /* MainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAF232F294F1FFC002F97A1 /* MainPage.swift */; };
+		FAAF2332294F2004002F97A1 /* MapPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAF2331294F2004002F97A1 /* MapPage.swift */; };
 		FAE6F882294C84DB0055E01E /* MetroMapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE6F881294C84DB0055E01E /* MetroMapApp.swift */; };
 		FAE6F884294C84DB0055E01E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE6F883294C84DB0055E01E /* ContentView.swift */; };
 		FAE6F886294C84DC0055E01E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAE6F885294C84DC0055E01E /* Assets.xcassets */; };
@@ -88,12 +93,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FA262B35294F2D6600602951 /* Zoom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zoom.swift; sourceTree = "<group>"; };
 		FA8F360C294C8DFB009FE4B6 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		FA8F360E294C9428009FE4B6 /* MetroStructs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetroStructs.swift; sourceTree = "<group>"; };
 		FA8F3610294CA802009FE4B6 /* db.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = db.json; sourceTree = "<group>"; };
 		FA8F3612294CA84A009FE4B6 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		FAAF232C294CE22C002F97A1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		FAAF232D294CE2B4002F97A1 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		FAAF232F294F1FFC002F97A1 /* MainPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPage.swift; sourceTree = "<group>"; };
+		FAAF2331294F2004002F97A1 /* MapPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPage.swift; sourceTree = "<group>"; };
 		FAE6F87E294C84DB0055E01E /* MetroMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetroMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAE6F881294C84DB0055E01E /* MetroMapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetroMapApp.swift; sourceTree = "<group>"; };
 		FAE6F883294C84DB0055E01E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -131,6 +139,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA262B2C294F25D800602951 /* SDWebImageSwiftUI in Frameworks */,
+				FA262B29294F254300602951 /* SDWebImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,6 +170,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA262B30294F2B9800602951 /* Zoom */ = {
+			isa = PBXGroup;
+			children = (
+				FA262B35294F2D6600602951 /* Zoom.swift */,
+			);
+			path = Zoom;
+			sourceTree = "<group>";
+		};
+		FAAF232E294F1FE3002F97A1 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				FAAF232F294F1FFC002F97A1 /* MainPage.swift */,
+				FAAF2331294F2004002F97A1 /* MapPage.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
 		FAE6F875294C84DB0055E01E = {
 			isa = PBXGroup;
 			children = (
@@ -190,6 +217,8 @@
 		FAE6F880294C84DB0055E01E /* MetroMap */ = {
 			isa = PBXGroup;
 			children = (
+				FA262B30294F2B9800602951 /* Zoom */,
+				FAAF232E294F1FE3002F97A1 /* UI */,
 				FAFF12A4294CBEC50086C4CD /* Info.plist */,
 				FAE6F881294C84DB0055E01E /* MetroMapApp.swift */,
 				FAE6F883294C84DB0055E01E /* ContentView.swift */,
@@ -300,6 +329,10 @@
 				FAE6F8C0294C85AF0055E01E /* PBXTargetDependency */,
 			);
 			name = MetroMap;
+			packageProductDependencies = (
+				FA262B28294F254300602951 /* SDWebImage */,
+				FA262B2B294F25D800602951 /* SDWebImageSwiftUI */,
+			);
 			productName = MetroMap;
 			productReference = FAE6F87E294C84DB0055E01E /* MetroMap.app */;
 			productType = "com.apple.product-type.application";
@@ -392,6 +425,11 @@
 				Base,
 			);
 			mainGroup = FAE6F875294C84DB0055E01E;
+			packageReferences = (
+				FA262B27294F254300602951 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+				FA262B2A294F25D800602951 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				FA262B2F294F2B2600602951 /* XCRemoteSwiftPackageReference "Zoomable" */,
+			);
 			productRefGroup = FAE6F87F294C84DB0055E01E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -458,11 +496,14 @@
 			files = (
 				FA8F360D294C8DFB009FE4B6 /* LocationManager.swift in Sources */,
 				FA8F360F294C9428009FE4B6 /* MetroStructs.swift in Sources */,
+				FAAF2330294F1FFC002F97A1 /* MainPage.swift in Sources */,
+				FAAF2332294F2004002F97A1 /* MapPage.swift in Sources */,
 				FAE6F884294C84DB0055E01E /* ContentView.swift in Sources */,
 				FAE6F882294C84DB0055E01E /* MetroMapApp.swift in Sources */,
 				FAFF12BD294CD7CA0086C4CD /* NotificationSoundManager.swift in Sources */,
 				FAFF12A1294CBB420086C4CD /* Settings.swift in Sources */,
 				FA8F3609294C8CAA009FE4B6 /* LiveActivityHelper.swift in Sources */,
+				FA262B36294F2D6600602951 /* Zoom.swift in Sources */,
 				FA8F3613294CA84A009FE4B6 /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -885,6 +926,46 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FA262B27294F254300602951 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.0;
+			};
+		};
+		FA262B2A294F25D800602951 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		FA262B2F294F2B2600602951 /* XCRemoteSwiftPackageReference "Zoomable" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jasudev/Zoomable?ref=iosexample.com";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 0.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FA262B28294F254300602951 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA262B27294F254300602951 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		FA262B2B294F25D800602951 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA262B2A294F25D800602951 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FAE6F876294C84DB0055E01E /* Project object */;
 }

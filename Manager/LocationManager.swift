@@ -54,8 +54,6 @@ final class LocationManager: NSObject {
         var closestStop: Stop?
         var smallestDistance: CLLocationDistance?
         
-        print(line.stops)
-        
         for stop in line.stops {
             let loc = coordToLoc(coord: stop.location)
             let distance = location.distance(from: loc)
@@ -76,6 +74,7 @@ extension LocationManager: CLLocationManagerDelegate {
         if closestStop == Settings.shared.stop && Settings.shared.notNotified {
             Settings.shared.notNotified.toggle()
             DispatchQueue.main.async {
+                self.stop()
                 self.endLiveActivityAndNotify(closestStop)
             }
         }

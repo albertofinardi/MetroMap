@@ -10,41 +10,17 @@ import ActivityKit
 import CoreLocation
 
 struct ContentView: View {
-    @ObservedObject var vm = MainViewModel()
     var body: some View {
         NavigationView {
-            Form {
-                Section("Setup") {
-                    Picker("Select city", selection: $vm.city) {
-                        ForEach(vm.db, id: \.self) { city in
-                            Text(city.name)
-                        }
+            TabView {
+                MainPage()
+                    .tabItem {
+                        Label("Notify", systemImage: "bell.and.waveform")
                     }
-                    
-                    Picker("Select line", selection: $vm.line) {
-                        ForEach(vm.city.lines, id: \.self) { line in
-                            Text(line.name)
-                        }
+                MapPage()
+                    .tabItem {
+                        Label("Map", systemImage: "map")
                     }
-                    
-                    Picker("Select stop", selection: $vm.stop) {
-                        ForEach(vm.line.stops, id: \.self) { line in
-                            Text(line.name)
-                        }
-                    }
-                }
-                
-                
-                Section {
-                    Button("Start") {
-                        vm.startLiveActivity()
-                    }
-                    Button("Stop") {
-                        vm.stopLiveActivity()
-                    }
-
-                }
-                
             }
             .navigationTitle("MetroMap")
         }

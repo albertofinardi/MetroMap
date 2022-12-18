@@ -12,7 +12,7 @@ struct MetroWidgetAttributes: ActivityAttributes {
     public struct ContentState: Codable, Hashable {
         // Dynamic stateful properties about your activity go here!
         var stop: Stop?
-        var state : State = .initialized
+        var state : WidgetState = .initialized
     }
     
     // Fixed non-changing properties about your activity go here!
@@ -21,7 +21,7 @@ struct MetroWidgetAttributes: ActivityAttributes {
     var lineColor : String
 }
 
-enum State : Codable {
+enum WidgetState : Codable {
     case initialized, using, ended, successful
 }
 
