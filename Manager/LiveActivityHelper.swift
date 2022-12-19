@@ -77,13 +77,13 @@ class LiveActivityHelper {
         Task {
             let updatedState = MetroWidgetAttributes.ContentState(stop: stop, state: .successful)
             let sound_name = NotificationSoundManager().getSound()
-            let alertConfiguration = AlertConfiguration(title: "Metro update", body: "You're close to your destination!'", sound: .named(sound_name))
+            let alertConfiguration = AlertConfiguration(title: "Metro update", body: "You're close to \(stop?.name ?? "your destination")", sound: .named(sound_name))
             let updatedContent = ActivityContent(state: updatedState, staleDate: nil)
             
             await activity?.update(updatedContent, alertConfiguration: alertConfiguration)
             
             let calendar = Calendar.current
-            let date = calendar.date(byAdding: .minute, value: 5, to: Date())!
+            let date = calendar.date(byAdding: .minute, value: 2, to: Date())!
             
             await activity?.end(updatedContent, dismissalPolicy: .after(date))
             
