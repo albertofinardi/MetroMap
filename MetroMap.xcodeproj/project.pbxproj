@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FA262B29294F254300602951 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = FA262B28294F254300602951 /* SDWebImage */; };
-		FA262B2C294F25D800602951 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = FA262B2B294F25D800602951 /* SDWebImageSwiftUI */; };
 		FA262B36294F2D6600602951 /* Zoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA262B35294F2D6600602951 /* Zoom.swift */; };
 		FA8F3609294C8CAA009FE4B6 /* LiveActivityHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE6F8CA294C88DB0055E01E /* LiveActivityHelper.swift */; };
 		FA8F360B294C8CBF009FE4B6 /* LiveActivityHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE6F8CA294C88DB0055E01E /* LiveActivityHelper.swift */; };
@@ -16,6 +14,8 @@
 		FA8F360F294C9428009FE4B6 /* MetroStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8F360E294C9428009FE4B6 /* MetroStructs.swift */; };
 		FA8F3611294CA802009FE4B6 /* db.json in Resources */ = {isa = PBXBuildFile; fileRef = FA8F3610294CA802009FE4B6 /* db.json */; };
 		FA8F3613294CA84A009FE4B6 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8F3612294CA84A009FE4B6 /* MainViewModel.swift */; };
+		FAA699B529547F3500F0224C /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = FAA699B429547F3500F0224C /* SDWebImageSwiftUI */; };
+		FAA699B829547F4400F0224C /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = FAA699B729547F4400F0224C /* SDWebImage */; };
 		FAAF2330294F1FFC002F97A1 /* MainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAF232F294F1FFC002F97A1 /* MainPage.swift */; };
 		FAAF2332294F2004002F97A1 /* MapPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAF2331294F2004002F97A1 /* MapPage.swift */; };
 		FAE6F882294C84DB0055E01E /* MetroMapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE6F881294C84DB0055E01E /* MetroMapApp.swift */; };
@@ -139,8 +139,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA262B2C294F25D800602951 /* SDWebImageSwiftUI in Frameworks */,
-				FA262B29294F254300602951 /* SDWebImage in Frameworks */,
+				FAA699B829547F4400F0224C /* SDWebImage in Frameworks */,
+				FAA699B529547F3500F0224C /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,8 +330,8 @@
 			);
 			name = MetroMap;
 			packageProductDependencies = (
-				FA262B28294F254300602951 /* SDWebImage */,
-				FA262B2B294F25D800602951 /* SDWebImageSwiftUI */,
+				FAA699B429547F3500F0224C /* SDWebImageSwiftUI */,
+				FAA699B729547F4400F0224C /* SDWebImage */,
 			);
 			productName = MetroMap;
 			productReference = FAE6F87E294C84DB0055E01E /* MetroMap.app */;
@@ -426,9 +426,8 @@
 			);
 			mainGroup = FAE6F875294C84DB0055E01E;
 			packageReferences = (
-				FA262B27294F254300602951 /* XCRemoteSwiftPackageReference "SDWebImage" */,
-				FA262B2A294F25D800602951 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
-				FA262B2F294F2B2600602951 /* XCRemoteSwiftPackageReference "Zoomable" */,
+				FAA699B329547F3500F0224C /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				FAA699B629547F4400F0224C /* XCRemoteSwiftPackageReference "SDWebImage" */,
 			);
 			productRefGroup = FAE6F87F294C84DB0055E01E /* Products */;
 			projectDirPath = "";
@@ -928,42 +927,34 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		FA262B27294F254300602951 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.1.0;
-			};
-		};
-		FA262B2A294F25D800602951 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+		FAA699B329547F3500F0224C /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 2.0.0;
+				branch = master;
+				kind = branch;
 			};
 		};
-		FA262B2F294F2B2600602951 /* XCRemoteSwiftPackageReference "Zoomable" */ = {
+		FAA699B629547F4400F0224C /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/jasudev/Zoomable?ref=iosexample.com";
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
 			requirement = {
-				kind = upToNextMinorVersion;
-				minimumVersion = 0.5.0;
+				branch = master;
+				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		FA262B28294F254300602951 /* SDWebImage */ = {
+		FAA699B429547F3500F0224C /* SDWebImageSwiftUI */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = FA262B27294F254300602951 /* XCRemoteSwiftPackageReference "SDWebImage" */;
-			productName = SDWebImage;
-		};
-		FA262B2B294F25D800602951 /* SDWebImageSwiftUI */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = FA262B2A294F25D800602951 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			package = FAA699B329547F3500F0224C /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
 			productName = SDWebImageSwiftUI;
+		};
+		FAA699B729547F4400F0224C /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FAA699B629547F4400F0224C /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
